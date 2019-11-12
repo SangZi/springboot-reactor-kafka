@@ -3,10 +3,16 @@
   # A. How to run the application
 
   1. Download and install Kafka locally
-
-  2. Start Zookeeper
-
-  3. Start Kafka
+     - Visit: https://kafka.apache.org/quickstart
+     - Click Download to download the tar file
+     - Un-tar the tar-file in console with command for example: tar -xzf kafka_2.11-2.0.0.tgz
+       
+  2. Start Zookeeper in a console
+     cd /bin/windows
+     zookeeper-server-start.bat ../../config/zookeeper.properties
+    
+  3. Start Kafka in a second console
+     cd /bin/windows
 
   4. Run the spring boot application
 
